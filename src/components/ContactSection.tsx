@@ -26,7 +26,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-foreground">General Inquiries</p>
-                  <p className="text-muted-foreground">hello@vibestack.com</p>
+                  <p className="text-muted-foreground">tbc</p>
                 </div>
               </div>
               
@@ -36,7 +36,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-foreground">Partnerships</p>
-                  <p className="text-muted-foreground">partners@vibestack.com</p>
+                  <p className="text-muted-foreground">tbc</p>
                 </div>
               </div>
               
