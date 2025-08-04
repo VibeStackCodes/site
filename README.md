@@ -1,73 +1,83 @@
-# Welcome to your Lovable project
+# VibeStack - AI-Native Platform for End-to-End Product Creation
 
-## Project info
+## About VibeStack
 
-**URL**: https://lovable.dev/projects/bd3c4d3e-6092-41fe-b3d7-b954c242dda3
+VibeStack is the AI-native platform for end-to-end product creation. We're building what comes after Cursor, Bolt, and Lovable - the new OS for product creation.
 
-## How can I edit this code?
+**Our Mission**: To revolutionize how products are created by providing one unified platform that handles the entire product lifecycle from discovery to sales.
 
-There are several ways of editing your application.
+## Key Features
 
-**Use Lovable**
+- **Discover**: AI-powered market research and validation
+- **Develop**: End-to-end development automation with full-stack AI tools
+- **Test**: Continuous testing and user feedback in real-time
+- **Market**: AI-generated campaigns and go-to-market strategies
+- **Sell**: Complete sales and customer management with built-in payments
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/bd3c4d3e-6092-41fe-b3d7-b954c242dda3) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
+## Tech Stack
 
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Frontend**: React 18 with TypeScript
+- **Styling**: Tailwind CSS with shadcn/ui components
+- **Build Tool**: Vite
+- **Deployment**: Optimized for modern web platforms
 
-## How can I deploy this project?
+## Development
 
-Simply open [Lovable](https://lovable.dev/projects/bd3c4d3e-6092-41fe-b3d7-b954c242dda3) and click on Share -> Publish.
+### Prerequisites
 
-## Can I connect a custom domain to my Lovable project?
+- Node.js (v18 or higher)
+- npm or yarn
 
-Yes, you can!
+### Getting Started
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+```sh
+# Clone the repository
+git clone <YOUR_GIT_URL>
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+# Navigate to the project directory
+cd vibestack-site
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+The development server will start at `http://localhost:5173`
+
+### Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## Project Structure
+
+```
+src/
+├── components/          # React components
+│   ├── ui/            # shadcn/ui components
+│   └── *.tsx          # Page sections
+├── pages/              # Page components
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions
+└── main.tsx           # App entry point
+```
+
+## Contact
+
+- **General Inquiries**: [Contact us](mailto:hello@vibestack.com)
+- **Partnerships**: [Partnership inquiries](mailto:partnerships@vibestack.com)
+- **LinkedIn**: [VibeStack on LinkedIn](https://www.linkedin.com/company/vibestack/)
+
+## Status
+
+🚧 **Coming Soon** - VibeStack is currently in development. Join our waitlist for early access and exclusive updates.
+
+---
+
+*Code the vibe. Launch the tribe.*

@@ -35,38 +35,38 @@ const TargetAudienceSection = () => {
   ];
 
   return (
-    <section className="py-24 px-6 bg-vibe-surface/30">
+    <section className="py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-vibe-surface/30">
       <div className="container mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-text bg-clip-text text-transparent">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 bg-gradient-text bg-clip-text text-transparent leading-tight">
             Who It's For
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg text-muted-foreground max-w-2xl sm:max-w-3xl mx-auto px-4">
             Built for the next generation of digital creators and innovators
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {audiences.map((audience, index) => (
             <Card 
               key={index}
-              className="p-6 bg-vibe-surface/80 backdrop-blur-xl border-vibe-purple/30 hover:border-vibe-purple/60 transition-all duration-300 hover:transform hover:scale-105 group h-full"
+              className="p-4 sm:p-6 bg-vibe-surface/80 backdrop-blur-xl border-vibe-purple/30 hover:border-vibe-purple/60 transition-all duration-300 hover:transform hover:scale-105 group h-full"
             >
-              <div className="text-5xl mb-4 group-hover:animate-bounce">{audience.icon}</div>
+              <div className="text-4xl sm:text-5xl mb-3 sm:mb-4 group-hover:animate-bounce">{audience.icon}</div>
               
-              <h3 className="text-xl font-bold mb-3 text-foreground group-hover:text-vibe-purple transition-colors">
+              <h3 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-foreground group-hover:text-vibe-purple transition-colors">
                 {audience.title}
               </h3>
               
-              <p className="text-muted-foreground mb-4 leading-relaxed">
+              <p className="text-sm sm:text-base text-muted-foreground mb-3 sm:mb-4 leading-relaxed">
                 {audience.description}
               </p>
               
-              <div className="space-y-2">
+              <div className="space-y-1.5 sm:space-y-2">
                 {audience.features.map((feature, idx) => (
                   <div key={idx} className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-vibe-purple rounded-full"></div>
-                    <span className="text-sm text-muted-foreground">{feature}</span>
+                    <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-vibe-purple rounded-full flex-shrink-0"></div>
+                    <span className="text-xs sm:text-sm text-muted-foreground">{feature}</span>
                   </div>
                 ))}
               </div>
